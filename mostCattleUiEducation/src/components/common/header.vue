@@ -36,11 +36,13 @@
 <style lang="less">
     .header{
         width:100%;
-        position: absolute;
+        position: fixed;
         top:0;
         left:0;
         height: 72px;
         box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+        z-index:99999;
+        background:#fff;
         .logo{
             padding-left: 25px;
             display: block;

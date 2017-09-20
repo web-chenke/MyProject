@@ -179,15 +179,7 @@
                 vertical-align: top;
                 margin-left:5px;
             }
-           
-            @font-face {
-              font-family: 'iconfont';  /* project id 402632 */
-              src: url('//at.alicdn.com/t/font_402632_4chvt8vv4r71fw29.eot');
-              src: url('//at.alicdn.com/t/font_402632_4chvt8vv4r71fw29.eot?#iefix') format('embedded-opentype'),
-              url('//at.alicdn.com/t/font_402632_4chvt8vv4r71fw29.woff') format('woff'),
-              url('//at.alicdn.com/t/font_402632_4chvt8vv4r71fw29.ttf') format('truetype'),
-              url('//at.alicdn.com/t/font_402632_4chvt8vv4r71fw29.svg#iconfont') format('svg');
-            }
+
             .iconfont{
                 display: inline-block;
               font-family:"iconfont";
@@ -200,9 +192,6 @@
                 -moz-transition: -moz-transform 0.4s ease-out;
                 -o-transition: -o-transform 0.4s ease-out;
                 -ms-transition: -ms-transform 0.4s ease-out;
-            }
-            .rotate{
-
             }
             .iconfont:hover{-webkit-transform: rotateZ(360deg);
                 color:#333;

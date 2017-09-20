@@ -1,9 +1,11 @@
 <template>
     <div class="wrapper">
-        <!--header-->
+        <!--header组件-->
         <v-head></v-head>
-        <!--banner-->
+        <!--banner组件-->
         <v-banner></v-banner>
+        <!-- 课程介绍 -->
+        <v-courseIntroduction></v-courseIntroduction>
         <!--组件入口-->
         <div class="content">
             <transition name="el-fade-in">
@@ -16,12 +18,20 @@
 <script>
     import vHead from '../../common/header.vue';
     import vBanner from '../banner/index.vue';
+    import vCourseIntroduction from './courseIntroduction.vue';
     export default {
         name: 'homePage',
         components: {
             vHead,
-            vBanner
+            vBanner,
+            vCourseIntroduction
         }
     }
 </script>
 
+<style>
+    .wrapper{
+        width: 1150px;
+        margin: 0 auto;
+    }
+</style>
