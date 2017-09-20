@@ -10,7 +10,7 @@
                     {{ val }}
                 </el-button>
             </div>
-            <div class="main">
+            <div class="main1">
                 <!--登录-->
                 <template v-if="isShow===0">
                     <el-form :model="ruleForm" :rules="rules" ref="ruleForm" >
@@ -150,7 +150,7 @@
                     border-bottom:1px red solid;
                 }
             }
-            .main{
+            .main1{
                 padding-top: 30px;
                 border-top:1px #ccc solid;
                 margin-top: -7px;

@@ -16,7 +16,7 @@
                 <div class="carousel" >
                     <!--导航tab切换-->
                     <div class="currentMask" @mouseleave="leave"  v-if="current === 0">
-                        <div>
+                        <div class="currentMask-top">
                             <div style="margin-bottom: 20px;">
                                 <h3>基础</h3>
                                 <el-button type="text">HTML+CSS</el-button>
@@ -31,35 +31,153 @@
                             </div>
                         </div>
                         <div>
-                            57689879
+                            <div>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                            </div>
+
                         </div>
                     </div>
                     <div class="currentMask" @mouseleave="leave" v-if="current === 1">
-                        <div style="margin-bottom: 20px;">
-                            <h3>基础</h3>
-                            <el-button type="text">HTML+CSS</el-button>
-                            <el-button type="text">HTML</el-button>
-                            <el-button type="text">HTML+CSS</el-button>
+                        <div>
+                            <div style="margin-bottom: 20px;">
+                                <h3>基础</h3>
+                                <el-button type="text">HTML+CSS</el-button>
+                                <el-button type="text">HTML</el-button>
+                                <el-button type="text">HTML+CSS</el-button>
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                <h3>进阶</h3>
+                                <el-button type="text">HTML+CSS</el-button>
+                                <el-button type="text">UI</el-button>
+                                <el-button type="text">HTML+CSS</el-button>
+                            </div>
                         </div>
-                        <div style="margin-bottom: 20px;">
-                            <h3>进阶</h3>
-                            <el-button type="text">HTML+CSS</el-button>
-                            <el-button type="text">UI</el-button>
-                            <el-button type="text">HTML+CSS</el-button>
+                        <div>
+                            <div>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                            </div>
+
                         </div>
                     </div>
                     <div class="currentMask"  @mouseleave="leave" v-if="current === 2">
-                        <div style="margin-bottom: 20px;">
-                            <h3>初级</h3>
-                            <el-button type="text">HTML+CSS</el-button>
-                            <el-button type="text">HTML+CSS</el-button>
-                            <el-button type="text">HTML+CSS</el-button>
+                        <div>
+                            <div style="margin-bottom: 20px;">
+                                <h3>初级</h3>
+                                <el-button type="text">HTML+CSS</el-button>
+                                <el-button type="text">HTML+CSS</el-button>
+                                <el-button type="text">HTML+CSS</el-button>
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                <h3>高级</h3>
+                                <el-button type="text">HTML+CSS</el-button>
+                                <el-button type="text">HTML+CSS</el-button>
+                                <el-button type="text">HTML+CSS</el-button>
+                            </div>
                         </div>
-                        <div style="margin-bottom: 20px;">
-                            <h3>高级</h3>
-                            <el-button type="text">HTML+CSS</el-button>
-                            <el-button type="text">HTML+CSS</el-button>
-                            <el-button type="text">HTML+CSS</el-button>
+                        <div>
+                            <div>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt><img src="../../../assets/img.jpg" alt=""></dt>
+                                    <dd>
+                                        <p>哈哈哈哈哈哈哈</p>
+                                        <div>职业路径 <span>5步/ 28克</span></div>
+                                        <span class="red">￥500.00</span>
+                                    </dd>
+                                </dl>
+                            </div>
+
                         </div>
                     </div>
                     <!--轮播图片-->
@@ -131,6 +249,7 @@
         name: 'banner',
         data(){
             return{
+                //导航数据
                 navText: [
                     {text: '导航1'},
                     {text: '导航2'},
@@ -141,13 +260,15 @@
             }
         },
         methods:{
+            //鼠标移入导航
             enter: function(index){
                this.current = index;
                this.isActive = index;
             },
+            //鼠标移出导航
             leave: function(){
-//                this.current = -1;
-//                this.isActive = -1;
+                this.current = -1;
+                this.isActive = -1;
             }
         }
 
@@ -224,6 +345,13 @@
             .carousel{
                 position: relative;
                 .currentMask{
+                    padding:30px 0 0 30px;
+                    position: absolute;
+                    left: 216px;
+                    width: 800px;
+                    height: 444px;
+                    z-index:100;
+                    background: #f8fafc;
                     .el-button--text{
                         color:#555656;
                         margin-top: 10px;
@@ -236,13 +364,17 @@
                     span{
                         margin-right: 15px;
                     }
-                    padding:30px 0 0 30px;
-                    position: absolute;
-                    left: 216px;
-                    width: 800px;
-                    height: 444px;
-                    z-index:100;
-                    background: #f8fafc;
+                    dl{
+                        width: 370px;
+                        margin-right: 20px;
+                        float: left;
+                        cursor: pointer;
+                        img{width: 70px;border-radius: 7px;}
+                        dt{float:left;margin-right: 15px;}
+                        div{
+                            margin:5px 0;
+                        }
+                    }
                 }
             }
 

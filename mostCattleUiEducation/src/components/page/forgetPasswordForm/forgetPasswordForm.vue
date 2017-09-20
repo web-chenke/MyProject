@@ -8,7 +8,7 @@
                         <el-button type="text" @click="$router.push('/');">返回立即登录</el-button>   
                     </div>
                 </div>
-                <div class="main">
+                <div class="main1">
                     <!-- 忘记密码 -->
                     <template>
                         <el-form :model="forgetPasswordForm" :rules="rules" ref="forgetPasswordForm">
@@ -116,7 +116,7 @@
             }
 
         }
-        .main{
+        .main1{
             padding-top: 30px;
             border-top:1px #ccc solid;
             margin-top: -7px;
