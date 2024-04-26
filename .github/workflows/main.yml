@@ -24,7 +24,7 @@ jobs:
       run: npm run build
       
     - name: Deploy to GitHub Pages scp
-      uses: appleboy/scp-action@v0.0.1
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
