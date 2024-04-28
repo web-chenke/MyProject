@@ -8,7 +8,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
-
+const Version = new Date().getTime(); //定义一个时间作为版本号。
 var env = config.build.env
 
 var webpackConfig = merge(baseWebpackConfig, {
@@ -21,8 +21,8 @@ var webpackConfig = merge(baseWebpackConfig, {
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
     path: config.build.assetsRoot,
-    filename: utils.assetsPath('js/[name].[chunkhash].js'),
-    chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
+    filename: utils.assetsPath('js/[name].[chunkhash]'+ Version +'.js'),
+    chunkFilename: utils.assetsPath('js/[id].[chunkhash]'+ Version +'.js')
   },
   plugins: [
     // http://vuejs.github.io/vue-loader/en/workflow/production.html
